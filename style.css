@@ -1,0 +1,142 @@
+* {
+    margin: 0 auto;
+}
+.blog-body {
+    display: flex;
+    gap: 5%;
+}
+img {
+    width: 35px;
+    height: 35px;
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 84%;
+}
+header > a {
+    width: 33.33%;
+    margin: 10px 85px;
+}
+header > h1 {
+    width: 33.33%;
+    text-align: center;
+}
+.title {
+    margin: 0px 0px 10px 0px;
+}
+h1, p {
+    margin: 0;
+}
+.search {
+    text-align: right;
+}
+
+.main {
+    width: 55%;
+    margin-right: 0px;
+}
+.menu {
+    width: 20%;
+    margin-left: 0px;
+}
+.main > span {
+    color: gray;
+}
+.main > p {
+    padding: 15px 0px;
+}
+.headliner {
+    border-bottom: 3px solid rgb(88 94 88 / 8%);
+}
+.sidenote {
+    border: 3px solid rgb(88 94 88 / 8%);
+}
+.int-list {
+    list-style-type: decimal;
+}
+.btn-container {
+    margin-top: 50px;
+}
+.older-post {
+    background-color: transparent;
+    color: #1575C5;
+    border: 1px solid #1575C5;
+    padding: 5px 10px;
+    border-radius: 9999px;
+}
+.newer-post {
+    background-color: transparent;
+    color: grey;
+    border: 1px solid grey;
+    padding: 5px 10px;
+    border-radius: 9999px;
+}
+.archives {
+    margin: 50px 0px;
+}
+.archives li {
+    list-style-type: none;
+    margin: 5px 0px;
+}
+.archives ul {
+    padding: 0px;
+}
+.elsewhere li {
+    list-style-type: none;
+    margin: 5px 0px;
+}
+.elsewhere ul {
+    padding: 0px;
+}
+.about {
+    background-color: rgba(238, 238, 238, 0.589);
+    padding: 20px;
+}
+footer {
+    background-color: rgba(238, 238, 238, .2);
+    border-top: 3px solid rgb(88 94 88 / 8%);      
+    padding: 50px;
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .menu {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 800px) {
+  header {
+      align-items: center;
+      text-align: center;
+      display: inline-block;
+      width: 100%;
+  }
+  header > a {
+      width: auto;
+      margin: auto; 
+  }
+  header > h1 {
+      width: auto;
+      text-align: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 40%;
+    }
+    .menu {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .main {
+        width: 40%;
+    }
+    .menu {
+        width: 50%;
+    }
+}
