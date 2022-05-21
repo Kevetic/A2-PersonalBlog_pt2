@@ -22,6 +22,7 @@ header > a {
 header > h1 {
     width: 33.33%;
     text-align: center;
+    text-decoration: underline;
 }
 .title {
     margin: 0px 0px 10px 0px;
