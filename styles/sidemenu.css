@@ -1,0 +1,43 @@
+.menu {
+    width: 20%;
+    margin-left: 0px;
+}
+.archives {
+    margin: 50px 0px;
+}
+.archives li {
+    list-style-type: none;
+    margin: 5px 0px;
+}
+.archives ul {
+    padding: 0px;
+}
+.elsewhere li {
+    list-style-type: none;
+    margin: 5px 0px;
+}
+.elsewhere ul {
+    padding: 0px;
+}
+.about {
+    background-color: rgba(238, 238, 238, 0.589);
+    padding: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    .menu {
+        width: 30%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .menu {
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .menu {
+        width: 50%;
+    }
+}
